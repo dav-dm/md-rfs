@@ -114,7 +114,7 @@ Each approach defines its own set of arguments, declared within its respective c
 ## Project Structure
 
 ```plaintext
-adaptable-nids/
+md-rfs/
 ├── config.yaml
 ├── requirements.txt
 └── src/

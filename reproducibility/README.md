@@ -1,6 +1,6 @@
 # Hyperparameter Configurations for Training Approaches
 
-This folder contains `.json` files with the hyperparameters used to train the various approaches presented in the paper.
+This folder contains `.json` files with the hyperparameters used to train the various approaches presented in the [paper]().
 It also includes the file `dataset_sample.parquet`, which serves as an example of the required dataset format for use with this framework.
 
 > **Note:** For few-shot learning experiments, simply add the option `--k` when running the commands.
@@ -22,7 +22,7 @@ python main.py --src-dataset cic2018 --trg-dataset insdn --approach random_fores
 python main.py --src-dataset cic2018 --trg-dataset insdn --approach xgb --seed 0 --is-flat
 ```
 
-### Deep Learning Approaches
+### DL Approaches
 
 * **2D-CNN**
 

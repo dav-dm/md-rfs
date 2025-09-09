@@ -47,7 +47,7 @@ python main.py --src-dataset cic2018 --trg-dataset iot23 --approach baseline --a
   After training the teacher model and the domain discriminator autoencoder, run:
 
 ```bash
-python main.py --src-dataset cic2018 --trg-dataset iot23 --approach md_rfs --seed 0 --max-epochs 2 --n-tasks 2 --teacher-path ADD_A_PATH --discr-path ADD_A_PATH
+python main.py --src-dataset cic2018 --trg-dataset iot23 --approach md_rfs --seed 0 --max-epochs 200 --n-tasks 2 --teacher-path ADD_A_PATH --discr-path ADD_A_PATH
 ```
 
 ---

@@ -101,7 +101,7 @@ Each approach defines its own set of arguments, declared within its respective c
     -   `--adapt-lr [float]`: Learning rate for adaptation.
     -   `--adapt-epochs [int]`: Number of epochs for adaptation.
 
-2.  ***Rethinking Few-Shot (RFS)*** – [`rfs.py`](src/approach/rfs.py)
+2.  ***Rethinking Few-Shot (RFS)*** – [`rfs.py`](src/approach/md_rfs.py)
 
     -   `--alpha [float]`: Weighting factor for distillation loss.
     -   `--gamma [float]`: Weighting factor for classification loss.

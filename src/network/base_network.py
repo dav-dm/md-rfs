@@ -47,7 +47,7 @@ class BaseNetwork(nn.Module, ABC):
         """
         if self.backbone is not None:
             for param in self.backbone.parameters():
-                param.requires_grad = False
+                param.requires_grad = True
                 
     def freeze_net(self):
         """

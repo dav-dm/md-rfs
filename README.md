@@ -1,6 +1,6 @@
 # MD-RFS
 
-This framework contains the implementation of the approaches presented in the paper [Di Monda et al., *Rapid Few-Shot Learning for Resilient Multi-Domain Intrusion Detection*]().
+This framework contains the implementation of the approaches presented in the paper [Di Monda et al., *Rapid Few-Shot Learning for Resilient Multi-Domain Intrusion Detection*](https://ieeexplore.ieee.org/abstract/document/11432265).
 
 ## Installation
 
@@ -177,11 +177,11 @@ We thank the following open-source implementations that were used in this work:
 ## Citation
 If you use this framework, please cite:
 ```
-@inproceedings{dimonda2025rapid,
+@inproceedings{di2025rapid,
   title={Rapid Few-Shot Learning for Resilient Multi-Domain Intrusion Detection},
-  author={Di Monda, Davide and Rustam, Furquan and Anca Delia, Jurcut and Pescapè, Antonio},
-  booktitle={IEEE Global Communications Conference (GLOBECOM)},
-  pages={xxxx--xxxx},
+  author={Di Monda, Davide and Rustam, Furquan and Jurcut, Anca Delia and Pescap{\`e}, Antonio},
+  booktitle={GLOBECOM 2025-2025 IEEE Global Communications Conference},
+  pages={3097--3102},
   year={2025},
   organization={IEEE}
 }

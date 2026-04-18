@@ -1,6 +1,6 @@
 # Hyperparameter Configurations for Training Approaches
 
-This folder contains `.json` files with the hyperparameters used to train the various approaches presented in the [paper]().
+This folder contains `.json` files with the hyperparameters used to train the various approaches presented in the [paper](https://ieeexplore.ieee.org/abstract/document/11432265).
 It also includes the file `dataset_sample.parquet`, which serves as an example of the required dataset format for use with this framework.
 
 > **Note:** For few-shot learning experiments, simply add the option `--k` when running the commands.
